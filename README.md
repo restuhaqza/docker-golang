@@ -1,24 +1,16 @@
-# Foobar
+# Go with Docker
 
-Foobar is a Python library for dealing with word pluralization.
+Repository ini adalah bagian dari sharing session bersama dengan Kongkow IT Pekanbaru membahas seputar Golang
 
-## Installation
+## Requirements
+* Golang v1.11
+* Docker Engine >=18.09
+* Docker-Compose 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+## Apa yang ada disini
+* Example Go Code
+* Example Dockerfile
+* Docker Compose Configuration
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
