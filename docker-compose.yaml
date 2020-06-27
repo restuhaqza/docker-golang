@@ -2,7 +2,6 @@ version: "3.8"
 
 services:
   go-apps:
-    build: 
-      context: .
+    image: restuhaqza/docker-golang:v1
     ports: 
       - '0.0.0.0:8080:8080'
