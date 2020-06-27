@@ -7,7 +7,7 @@ import (
 )
 
 func helloServer(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, Kongkow IT Pekanbaru")
+	fmt.Fprintf(w, "{\"message\":\"Selamat Datang di Kongkow IT MeetUp tentang Golang\"}")
 }
 
 func main() {

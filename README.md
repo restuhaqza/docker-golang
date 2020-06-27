@@ -3,7 +3,7 @@
 Repository ini adalah bagian dari sharing session bersama dengan Kongkow IT Pekanbaru membahas seputar Golang
 
 ## Requirements
-* Golang v1.11
+* Golang >=v1.11
 * Docker Engine >=18.09
 * Docker-Compose 
 
